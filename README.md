@@ -22,6 +22,7 @@ make
 
 ### Requirement 
 Install kafka and elasticsearch or logstash on server
+```
 $ mkdir demo && cd demo
 $ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.6.3.tar.gz
 $ wget http://mirror.downloadvn.com/apache/kafka/1.1.0/kafka_2.12-1.1.0.tgz
@@ -30,6 +31,7 @@ $ tar -xvf elasticsearch-5.6.3.tar.gz
 $ /home/sen/demo/kafka_2.12-1.1.0/bin/zookeeper-server-start.sh -daemon /home/sen/demo/kafka_2.12-1.1.0/config/zookeeper.properties
 $ demo/kafka_2.12-1.1.0/bin/kafka-server-start.sh --daemon demo/kafka_2.12-1.1.0/config/server.properties
 $ elasticsearch-5.6.3/bin/elasticsearch -d
+```
 
 ### Run
 
