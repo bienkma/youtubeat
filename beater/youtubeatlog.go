@@ -15,6 +15,7 @@ import (
 
 	"github.com/Shopify/sarama"
 	kafkaCluster "gopkg.in/bsm/sarama-cluster.v2"
+
 	"google.golang.org/api/youtube/v3"
 	"google.golang.org/api/googleapi/transport"
 )
